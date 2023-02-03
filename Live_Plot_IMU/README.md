@@ -1,6 +1,9 @@
 #### Live plot OAK-D IMU Data with MatplotLib
 That's a good idea to check that your data looks good. Let's use MatplotLib and have fun with cahrt-port
 
+![Gyro Live Chart](../assets/GyroVis.gif)
+![Accelerometer Live Chart](../assets/AccVis.gif)
+
 ```bash
     conda create --name Live_Plot_IMU python=3.10 pip
     conda activate Live_Plot_IMU

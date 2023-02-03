@@ -2,11 +2,14 @@
 That's a good idea to check that your axis mapping is correct. Let's use [AHRS](https://pypi.org/project/AHRS/)
 and [Ursina](https://www.ursinaengine.org/entity_basics.html) for visualization.
 
+![Vis](../assets/3D_AHRS_Vis.gif)
+
 ```bash
     conda create --name 3D_Cube_AHRS python=3.10 pip
     conda activate 3D_Cube_AHRS
     pip install -r requirements.txt
     python main.py # Don't forget to connect your camera
+    python main_kalman.py # Compare Mahony and Kalman AHRS
 ```
 
 #### [OAK-D IMU](https://docs.luxonis.com/projects/api/en/latest/components/nodes/imu/) Coordinate system. Camera look at you:

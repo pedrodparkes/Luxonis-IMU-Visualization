@@ -8,7 +8,7 @@ from matplotlib import pyplot as plt
 import collections
 
 sources=['acceleroValues', 'gyroValues']
-DATA_SOURCE=0
+DATA_SOURCE=1
 
 # IMU measurements / sec
 ACC_FPS = 500

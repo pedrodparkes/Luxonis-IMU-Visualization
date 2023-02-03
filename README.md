@@ -43,3 +43,19 @@ conda activate 3D_Cube_AHRS
 pip install -r requirements.txt
 python main.py
 ```
+![Vis](assets/3D_AHRS_Vis.gif)
+
+
+#### [Live plot OAK-D IMU Data with MatplotLib.](Live_Plot_IMU/README.md)
+That's a good idea to check that your axis mapping is correct. Let's use [AHRS](https://pypi.org/project/AHRS/)
+and [Ursina](https://www.ursinaengine.org) for visualization.
+
+```bash
+cd Live_Plot_IMU
+conda create --name Live_Plot_IMU python=3.10 pip
+conda activate Live_Plot_IMU
+pip install -r requirements.txt
+python main.py # Don't forget to connect your camera
+```
+![Gyro Live Chart](assets/GyroVis.gif)
+![Accelerometer Live Chart](assets/AccVis.gif)
