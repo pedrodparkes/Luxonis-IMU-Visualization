@@ -32,7 +32,7 @@ Easiest way to check the installed IMU version is to ask it for ```GYROSCOPE_CAL
 ```
 
 
-#### [Rotate 3D cube with IMU](3D_Cube_AHRS/RDADME.md).
+#### [Rotate 3D cube with IMU](3D_Cube_AHRS/README.md).
 That's a good idea to check that your axis mapping is correct. Let's use [AHRS](https://pypi.org/project/AHRS/)
 and [Ursina](https://www.ursinaengine.org) for visualization.
 
